@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+	function fakeAjax(ob){
+	setTimeout(function(){
+	ob('ajax data');
+	},1000);
+	}
+
+	
+	console.log('alert');
+	fakeAjax(function(data){
+	console.log('ajax returned:' + data)
+	
+	});
+	
+	console.log('end');
+</script>
+
+</body>
+</html>

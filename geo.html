@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boris GEO</title>
+</head>
+
+<body>
+
+
+<script>
+
+	navigator.geolocation.getCurrentPosition(function(loc){
+	console.log(loc.coords.latitude + ',' + loc.coords.longtitude);
+	})
+	
+</script>
+</body>
+
+</html>

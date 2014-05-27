@@ -1,0 +1,36 @@
+primary-orange: #ED652E;
+
+h1{
+	color:primary-orange;
+	
+
+}
+
+div.content{
+
+color:primary-orange;
+}
+
+.header{
+	background-color: primary-orange;
+
+}
+
+.footer{
+	background-color: primary-orange;
+}
+
+content-width: 780px;
+total-width: 1000px;
+
+div.content{
+	width: content-width;
+
+}
+
+div.secondary{
+
+	width: total-width - content-width;
+}
+
+

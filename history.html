@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boris history</title>
+</head>
+
+<body>
+
+<a href="#newState">new state</a>
+
+
+<h1 onclick="javascript:goBack()">I am going back!</h1>
+<h1 onclick="javascript:goForward()">I am going forward!</h1>
+<h1 onclick="javascript:addHistory()">Click Me!</h1>
+<script>
+function goBack(){
+	window.history.go(-1);
+	
+}
+
+function goForward(){
+	window.history.go(1);
+	
+}
+
+function addHistory(){
+	window.history.pushState(undefined," ","newState2");
+	
+}
+</script>
+</body>
+
+</html>

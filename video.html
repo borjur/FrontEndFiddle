@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boris API</title>
+</head>
+
+<body>
+<video controls>
+<source src="song.mp4" type="video/mpeg">
+<source src="song.ogg" type="video/ogg">
+Your browser doesnt support the <code>code</code> element.
+</video>
+
+<script>
+var video;
+//window.addEvenetListener('load', init, false);
+//window.addEvenetListener('click', playPause, false);
+function playPause(){
+	if(video.paused){
+	video.play();
+	}else{
+	video.pause();
+	}
+}
+
+function init(){
+	video = document.getElementByTagName('video')[0];
+	video.play();
+}	
+	
+	</script>
+</body>
+
+</html>
